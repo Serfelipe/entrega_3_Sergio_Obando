@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+	font-family:'Poppins', sans-serif;
+	overflow-x: hidden;
+
+}
+
+/* Menú */
+#menu a{
+	font-size:15px;
+	font-weight:bold;
+	display:inline;
+	float: right;
+}
+
+/* Tamaño imágenes */
+.carousel-inner{
+max-height: 30rem;
+}
+
+.texto-inicio1{
+	color: #f18c42;
+}
+
+.texto-footer{
+color:white;
+}
+
+footer{
+	background: #31a84f;
+}
+
+/* Pantalla pequeña */
+@media (max-width:768px) {
+	#introduccion {
+		width:90% !important;
+	}
+}
+
+
+/* Organizar formulario contacto */
+.form-label {
+	color:white;
+}
+
+    input::placeholder{
+        color:rgb(135, 163, 155);
+        font-family:'Poppins', sans-serif;
+    }
+
+	textarea::placeholder{
+        color:rgb(135, 163, 155);
+        font-family:'Poppins', sans-serif;
+	}
+    
+#formulario{
+	position:absolute;
+	top: 10%;
+	left:40%;
+	
+}
+
+/* Organizar sitios turístiticos */
+
+/* Pantalla pequeña */
+@media (max-width:768px) {
+	#titulo-sitios {
+		width:90% !important;
+	}
+}
+
+#titulo-sitios {
+	text-align: center;
+	color: #31a84f;
+	
+}
+
+#intro-sitios {
+	text-align: center;
+	background: #dee054;
+
+}
+
+.card-title{
+	color: rgb(83, 114, 141);
+}
+
+.card-text{
+	color:#0f2e21;
+}
+
