@@ -1,0 +1,12 @@
+$colorh2:#31a84f;
+@use 'navbar';
+
+h4 {
+    color:rgb(20, 20, 20);
+    font-size: 4rem;
+}
+
+h2 {
+    color: $colorh2;
+}
+

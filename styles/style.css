@@ -13,12 +13,11 @@ body {
 	font-weight:bold;
 	display:inline;
 	float: right;
+	
 }
 
 /* Tamaño imágenes */
-.carousel-inner{
-max-height: 30rem;
-}
+
 
 .texto-inicio1{
 	color: #f18c42;
@@ -62,6 +61,34 @@ footer{
 	
 }
 
+/* Animación botón enviar formulario */
+.btn-btn-primary:hover {
+	color: #f5f3f3;
+	background-color: #d3525d;
+	transform: scale(1.5);
+	margin: 0 5px;
+}
+
+#exampleFormControlTextarea1:hover {
+	transform: scale(1.2);
+}
+
+#exampleCheck1:hover{
+	transform: scale(1.6);
+}
+
+#email:hover{
+	transform: scale(1.2);
+}
+
+#celular:hover{
+	transform: scale(1.2);
+}
+
+#nombre:hover{
+	transform: scale(1.2);
+}
+
 /* Organizar sitios turístiticos */
 
 /* Pantalla pequeña */
@@ -90,4 +117,87 @@ footer{
 .card-text{
 	color:#0f2e21;
 }
+
+/* Animación imágenes sitios turísticos */
+
+.card-img-bottom {
+	transition: 0,5s;
+	object-fit: cover;
+
+}
+
+.card-img-bottom:hover{
+	transform: scale(1.1);
+}
+
+
+
+/* Organizar sitios gastronómicos */
+
+/* Pantalla pequeña */
+@media (max-width:768px) {
+	#titulo-comida {
+		width:90% !important;
+	}
+}
+
+#titulo-comida {
+	text-align: center;
+	color: #31a84f;
+	
+}
+
+#intro-comidas {
+	text-align: center;
+	background: #e0af54;
+	
+
+}
+
+/* Organizar sitios salsa */
+
+/* Pantalla pequeña */
+@media (max-width:768px) {
+	#titulo-salsa {
+		width:90% !important;
+	}
+}
+
+#titulo-salsa {
+	text-align: center;
+	color: #31a84f;
+	
+}
+
+#intro-salsa {
+	text-align: center;
+	background: #e0b454;
+
+}
+
+/* Pantalla pequeña historia */
+@media (max-width:768px) {
+	#titulo-historia {
+		width:90% !important;
+	}
+}
+
+#titulo-historia {
+	text-align: center;
+	color: #31a84f;
+	
+}
+
+#intro-historia {
+	text-align: center;
+	background: #e0b454;
+	width: 100%;
+	
+}
+
+.texto-footer {
+	display: flex;
+	justify-content: space-around;
+}
+
 

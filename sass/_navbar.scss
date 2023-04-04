@@ -1,0 +1,14 @@
+#menu {
+    background-color: salmon;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: black;
+
+// Si toca la opción de navegación, cambia de color
+    &-link{
+        &:hover{
+            color:#000;
+        }
+    }
+}
